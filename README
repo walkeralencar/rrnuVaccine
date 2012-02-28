@@ -1,20 +1,3 @@
-pt_BR:
-Vacina: Malware rr.nu
-
-Este é um simples script que varrerá todos os arquivos php recursivamente a partir do diretorio definido, e limpará a
-string definida pelo rr.nu.
-
-Coloque o arquivo na pasta raiz do wordpress (mesma pasta do wp-config.php), e execute diretamente do browser.
-
-Ex.: http://xpto.com.br/rrnuVaccine.php
-
-Assim que terminar o processo ele exibirá um relatório de todos os arquivos php lidos.
-
-OBS.: Fiz esse script na correria, nao me preocupei tanto com beleza ou qualidade do código, afinal... são 3:40am zZzZ
-
-Se alguém quiser melhorar fique à vontade.
-
-
 en_US:
 Vaccine: Malware rr.nu
 This simple script will read all file php recursivelly from directory and cleanup string defined by rr.nu
@@ -26,3 +9,19 @@ Ex.: http://xpto.com/rrnuVaccine.php
 When finished, will show a report of all readed php files.
 
 ps.: sorry my bad english.
+
+
+pt_BR:
+Vacina: Malware rr.nu
+
+Este é um simples script que varrerá todos os arquivos php recursivamente a partir do diretorio definido, e limpará a string definida pelo rr.nu.
+
+Coloque o arquivo na pasta raiz do wordpress (mesma pasta do wp-config.php), e execute diretamente do browser.
+
+Ex.: http://xpto.com.br/rrnuVaccine.php
+
+Assim que terminar o processo ele exibirá um relatório de todos os arquivos php lidos.
+
+OBS.: Fiz esse script na correria, nao me preocupei tanto com beleza ou qualidade do código, afinal... são 3:40am zZzZ
+
+Se alguém quiser melhorar fique à vontade.
