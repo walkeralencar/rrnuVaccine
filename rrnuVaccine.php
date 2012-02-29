@@ -81,7 +81,7 @@ class rrnuVaccine {
             } else {
                 if (pathinfo($entry, PATHINFO_EXTENSION) == 'php') {
                     if (file_get_contents($file, null, null, 0, $strSize) == $this->getString()) {
-                        if (false == file_put_contents($file, file_get_contents($file, null, null, $strSize, filesize($file) - $strSize))) {
+                        if (false === file_put_contents($file, file_get_contents($file, null, null, $strSize, filesize($file) - $strSize))) {
                             $status = '<em style="color:darkred">infected!</em>';
                             $this->counter['infected']++;
                         } else {
