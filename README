@@ -1,4 +1,5 @@
-en_US:
+en_US
+====
 Vaccine: Malware rr.nu
 This simple script will read all file php recursivelly from directory and cleanup string defined by rr.nu
 Put file in ur wordpress root (wp-config.php same folder ), and run directly from browser.
@@ -7,7 +8,8 @@ When finished, will show a report of all readed php files.
 
 ps.: sorry my bad english.
 
-pt_BR:
+pt_BR
+=====
 Vacina: Malware rr.nu
 Este é um simples script que varrerá todos os arquivos php recursivamente a partir do diretorio definido, e limpará a string definida pelo rr.nu.
 Coloque o arquivo na pasta raiz do wordpress (mesma pasta do wp-config.php), e execute diretamente do browser.
@@ -15,6 +17,16 @@ Ex.: http://xpto.com.br/rrnuVaccine.php
 Assim que terminar o processo ele exibirá um relatório de todos os arquivos php lidos.
 OBS.: Fiz esse script na correria, nao me preocupei tanto com beleza ou qualidade do código, afinal... são 3:40am zZzZ
 Se alguém quiser melhorar fique à vontade.
+
+Donate!
+-----------------------------------------------------------
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC7Z1GXRjEuHrpaJG2A+723JQhBpYaqKQ7rjT+rTlpOtJJXnGdSqqJj/tWZ0gKLIoqJxRFW1R/zdLp32BNPLfwA93EZRnKCgeUPYoSqpkcFjx3R8eAOGccU5e08XQqa9OdQeecQRKjk52XiCnu46dDMKygV2IYFsTpMH1z3+ivtTjELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIDmxsrl7MACKAgYh0KiU7lTS6dxn9vtoCw1+4AX8TAAMP5yPpeP6z/CwWmSpo+DEkrFNqKTXgCEhSaRy0RUvK1QwaPx1phOQzaURpau7W779PD0M1quM9vS/zdUVtufm/eDSNEgluFIYOpl/FsqyqWmj0cJGH6M80pM6lsqmIAodWaH+FM5VknqwXb5k2K9L6JDDooIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTIwMzAxMDU0MDE5WjAjBgkqhkiG9w0BCQQxFgQUeJlRLcXzsDg9eD8XlHXWCRHJl2owDQYJKoZIhvcNAQEBBQAEgYCItGEN/R+dX9RHtrUCoKDIKhpbmHnNuzobJ7nHigkh9qw67JgyjaFMWEKnMHqjM+1GSdAf4BXp6kjysIIiZncJFncxM5D2kXQgrg/jSRYT6LyaY1CRpCVxjAdh87O9Z22TxvVIiMrzRWLRfrmOGUijMmdg/1GP5m3/0WblYqRl8Q==-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - A maneira mais fácil e segura de efetuar pagamentos online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+</form>
 
 Contribute
 -------------------------------------------------------------
