@@ -1,6 +1,11 @@
 ## Vaccine: Malware rr.nu ##
 
-This simple script will read all file php recursivelly from current directory and cleanup string defined by one or more patterns.
+This simple script will read all file php recursivelly from current directory and cleanup string defined by one or more patterns:
+
+    private $pattern = [
+        '(\<\?php eval\(gzinflate\(base64_decode\(.*\)\)\);\?\>)',
+        '(\<\?php eval\(base64_decode\(.*\)\);\?\>)'
+    ];
 
 ## How to use: ##
 
