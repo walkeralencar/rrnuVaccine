@@ -9,11 +9,9 @@ This simple script will read all file php recursivelly from current directory an
 
 ## How to use: ##
 
-Put the rrnuVaccine.php file in your base folder, it will scan every file in the current folder and every children folders, and run directly from shell: `sudo php rrnuVaccine.php`
+Put the rrnuVaccine.php file in your base folder and run directly from shell: `sudo php rrnuVaccine.php`. It will scan every file in the current folder and every children folders and, when finished, it will show a report of all infected and cleaned php files.
 
-When finished, it will show a report of all infected and cleaned php files.
-
-If a malware is detected, it will silently try to remove the malware string. Be careful with this tool, make a backup first!
+If a malware string is detected, it will silently try to remove the it. Be careful with this tool, make a backup first!
 
 
 Emanuele "ToX" Toscano
