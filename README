@@ -1,11 +1,14 @@
-en_US
-====
-Access wiki for information: https://github.com/walkeralencar/rrnuVaccine/wiki/English
+## Vaccine: Malware rr.nu ##
 
-pt_BR
-=====
-Acesse a wiki para informações: https://github.com/walkeralencar/rrnuVaccine/wiki/Português
+This simple script will read all file php recursivelly from current directory and cleanup string defined by one or more patterns.
 
-Contribute
--------------------------------------------------------------
-Fork, commit, push, and send us a pull request at walkeralencar/rrnuVaccine
+## How to use: ##
+
+Put the rrnuVaccine.php file in your base folder, it will scan every file in the current folder and every children folders, and run directly from shell: `sudo php rrnuVaccine.php`
+
+When finished, it will show a report of all infected and cleaned php files.
+
+If a malware is detected, it will silently try to remove the malware string. Be careful with this tool, make a backup first!
+
+
+Emanuele "ToX" Toscano
