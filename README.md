@@ -1,5 +1,5 @@
 # en_US
-====
+
 ## Vaccine: Malware rr.nu 
 
 This simple script will read all file php recursivelly from directory and cleanup string defined by rr.nu.
@@ -18,7 +18,7 @@ Thank you!
 Walker de Alencar
 
 # pt_BR
-=====
+
 ## Vacina: Malware rr.nu
 Este é um simples script que varrerá todos os arquivos php recursivamente a partir do diretorio definido, e limpará a string definida pelo rr.nu.
 
